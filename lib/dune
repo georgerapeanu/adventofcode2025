@@ -1,0 +1,8 @@
+(library
+ (name advent2025)
+ (inline_tests)
+ (libraries angstrom core)
+ (preprocess
+  (pps ppx_jane)
+ )
+)
